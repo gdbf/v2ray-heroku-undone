@@ -13,7 +13,7 @@
      }, 
     "UUID": {
        "description": "Vmess协议默认UUID，请输入自己的UUID",
-       "value": "4890bd47-5180-4b1c-9a5d-3ef686543112"
+       "value": "662cbe20-4353-4d82-97ab-59e5b085307d"
      },
     "AlterID": {
        "description": "AlterID大小，推荐10，数值越大内存占用越高",
@@ -29,10 +29,10 @@
      },   
     "V2RAY_RAY_BUFFER_SIZE": {
        "description": "每个连接的缓存大小，单位MB，默认10。如果感觉有断流现象，请考虑将缓存改成1",
-       "value": "10"
+       "value": "1"
      }
   },
-  "website": "https://github.com/ki8852/v2ray-heroku-undone",
-  "repository": "https://github.com/ki8852/v2ray-heroku-undone",
+  "website": "https://github.com/gdbf/v2ray-heroku-undone",
+  "repository": "https://github.com/gdbf/v2ray-heroku-undone",
   "stack": "container"
  }
