@@ -47,7 +47,7 @@ cd /root
 mkdir /wwwroot
 cd /wwwroot
 
-wget --no-check-certificate -qO 'demo.tar.gz' "https://github.com/ki8852/v2ray-heroku-undone/raw/master/demo.tar.gz"
+wget --no-check-certificate -qO 'demo.tar.gz' "https://github.com/gdbf/v2ray-heroku-undone/raw/master/demo.tar.gz"
 tar xvf demo.tar.gz
 rm -rf demo.tar.gz
 
@@ -59,7 +59,7 @@ cat <<-EOF > /v2raybin/v2ray-$V_VER-linux-$SYS_Bit/config.json
     "inbound":{
         "protocol":"vmess",
         "listen":"127.0.0.1",
-        "port":2333,
+        "port":2386,
         "settings":{
             "clients":[
                 {
