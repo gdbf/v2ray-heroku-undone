@@ -5,7 +5,7 @@
   "env": {
     "AppName": {
        "description": 
-       "value": "name"
+        "name"
      },
     "VER": {
        "description": "默认latest安装最新版本V2Ray （输入V2Ray 版本号 进行指定版本安装。例如：3.22)",
